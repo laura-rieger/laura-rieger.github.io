@@ -11,9 +11,10 @@ redirect_from:
 
 Education
 ======
-* B.S. in GitHub, GitHub University, 2012
-* M.S. in Jekyll, GitHub University, 2014
-* Ph.D in Version Control Theory, GitHub University, 2018 (expected)
+* B.Sc. Computational Engineering Science, TU Berlin, 2014
+* M.Sc. Computer Science, TU Berlin, 2014
+* M.Sc. Computer Science, KAIST in South Korea, 2014
+* Ph.D in Machine Learning, Technical University of Denmark, 2029 (expected)
 
 Work experience
 ======
