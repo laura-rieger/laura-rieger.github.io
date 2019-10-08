@@ -14,28 +14,36 @@ Education
 * B.Sc. Computational Engineering Science, TU Berlin, 2014
 * M.Sc. Computer Science, TU Berlin, 2014
 * M.Sc. Computer Science, KAIST in South Korea, 2014
-* Ph.D in Machine Learning, Technical University of Denmark, 2029 (expected)
+* Ph.D in Machine Learning, Technical University of Denmark, 2020 (expected)
+* Visiting Scholar in Bin Yu's group at UC Berkeley, 2019
 
 Work experience
 ======
-* Summer 2015: Research Assistant
-  * Github University
-  * Duties included: Tagging issues
-  * Supervisor: Professor Git
-
-* Fall 2015: Research Assistant
-  * Github University
-  * Duties included: Merging pull requests
-  * Supervisor: Professor Hub
+* 2016 -2017: Student Assistant
+  * Machine learning group (Klaus-Robert Müller) at TU Berlin
+  * TA for Machine Learning I & II
+* Summer 2016: Healthcare Machine Learning Developer at 
+  * SAP Berlin
+  * Implementing and evaluating machine learning algorithms for their use in clinical diagnosis
+* 2015 - 2016 2015: Research Assistant
+  * Lab for Artificial Intelligence & Probabilistic Reasoning at KAIST
+  * Research in reinforcement learning
+* 2011 - 2015 2015: Student developer
+  * InMediasP GmbH
+  * Developing extensions for product data management systems (PLM/PDM lifecycle)
   
 Skills
 ======
-* Skill 1
-* Skill 2
-  * Sub-skill 2.1
-  * Sub-skill 2.2
-  * Sub-skill 2.3
-* Skill 3
+
+* Programming
+  * Python (current/ main)
+  * C++ 
+  * Java
+  * Matlab
+* Languages
+	* German (native)
+	* English (business fluent)
+	* Danish (fluent)
 
 Publications
 ======
@@ -57,4 +65,4 @@ Teaching
   
 Service and leadership
 ======
-* Currently signed in to 43 different slack teams
+* Reviewer for NeuRIPS 2018 and ICML 2019
