@@ -8,7 +8,7 @@ redirect_from:
 ---
 
 {% include base_path %}
-
+[CV as PDF](https://laura-rieger.github.io/files/LRiegerCV.pdf)
 Education
 ======
 * B.Sc. Computational Engineering Science, TU Berlin, 2014
