@@ -1,5 +1,5 @@
 ---
-title: "Aggregating explainability methods for neural networks stabilizes explanations"
+title: "Aggregating explanation methods for stable and robust explainability"
 collection: publications
 permalink: /publication/2019-03-01-Aggregating-explainability-methods-for-neural-networks-stabilizes-explanations
 date: 2019-03-01
