@@ -1,68 +1,56 @@
-@article{DeLaRocheSaintAndre2017,
-abstract = {{\textcopyright} 1994-2012 IEEE. In this letter, we show that reconstruction of an image passed through a neural network is possible, using only the locations of the max pool activations. This was demonstrated with an architecture consisting of an encoder and a decoder. The decoder is a mirrored version of the encoder, where convolutions are replaced with deconvolutions and poolings are replaced with unpooling layers. The locations of the max pool switches are transmitted to the corresponding unpooling layer. The reconstruction is computed only from these switches without the use of feature values. Using only the max switch location information of the pool layers, a surprisingly good image reconstruction can be achieved. We examine this effect in various architectures, as well as how the quality of the reconstruction is affected by the number of features. We also compare the reconstruction with an encoder with randomly initialized weights with an encoder pretrained for classification. Finally, we give recommendations for future architecture decisions.},
-author = {{De La Roche Saint Andre}, M. and Rieger, L. and Hannemose, M. and Kim, J.},
-doi = {10.1109/LSP.2016.2638435},
-issn = {10709908},
-journal = {IEEE Signal Processing Letters},
-keywords = {Autoencoder,convolutional neural networks,deconvolution,encoding,image reconstruction,pooling,unpooling},
-number = {3},
-title = {{Tunnel Effect in CNNs: Image Reconstruction from Max Switch Locations}},
-volume = {24},
-year = {2017}
+@incollection{rieger2018structuring,
+	title={Structuring neural networks for more explainable predictions},
+	author={Rieger, Laura and Chormai, Pattarawat and Montavon, Gr{\'e}goire and Hansen, Lars Kai and M{\"u}ller, Klaus-Robert},
+	booktitle={Explainable and Interpretable Models in Computer Vision and Machine Learning},
+	pages={115--131},
+	year={2018},
+	publisher={Springer, Cham}
 }
-@article{Rieger2017,
-author = {Rieger, Laura},
-journal = {Explainable and Interpretable Models in Computer Vision and Machine Learning},
-publisher = {Proceedings Workshop on Interpreting, Explaining and Visualizing Deep Learning (at NIPS)},
-title = {{Separable explanations of neural network decisions}},
-url = {https://orbit.dtu.dk/en/publications/id(1a8c2782-79cc-418b-97ff-ae97cec0b6e9).html},
-year = {2017}
+
+@article{rieger2019aggregating,
+	title={Aggregating explanation methods for stable and robust explainability},
+	author={Rieger, Laura and Hansen, Lars Kai},
+	journal={arXiv preprint arXiv:1903.00519},
+	year={2019}
 }
-@article{Rieger2019a,
-abstract = {Despite a growing literature on explaining neural networks, no consensus has been reached on how to explain a neural network decision or how to evaluate an explanation. In fact, most works rely on manually assessing the explanation to evaluate the quality of a method. This injects uncertainty in the explanation process along several dimensions: Which explanation method to apply? Who should we ask to evaluate it and which criteria should be used for the evaluation? Our contributions in this paper are twofold. First, we investigate schemes to combine explanation methods and reduce model uncertainty to obtain a single aggregated explanation. Our findings show that the aggregation is more robust, well-aligned with human explanations and can attribute relevance to a broader set of features (completeness). Second, we propose a novel way of evaluating explanation methods that circumvents the need for manual evaluation and is not reliant on the alignment of neural networks and humans decision processes.},
-archivePrefix = {arXiv},
-arxivId = {1903.00519},
-author = {Rieger, Laura and Hansen, Lars Kai},
-eprint = {1903.00519},
-file = {:C$\backslash$:/Users/lauri/AppData/Local/Mendeley Ltd./Mendeley Desktop/Downloaded/Rieger, Hansen - 2019 - Aggregating explainability methods for neural networks stabilizes explanations.pdf:pdf},
-journal = {arxiv},
-month = {mar},
-title = {{Aggregating explainability methods for neural networks stabilizes explanations}},
-url = {http://arxiv.org/abs/1903.00519},
-year = {2019}
+
+@article{saint2016tunnel,
+	title={Tunnel effect in CNNS: image reconstruction from max switch locations},
+	author={Saint Andre, Matthieu de La Roche and Rieger, Laura and Hannemose, Morten and Kim, Junmo},
+	journal={IEEE Signal Processing Letters},
+	volume={24},
+	number={3},
+	pages={254--258},
+	year={2016},
+	publisher={IEEE}
 }
-@article{Rieger2019,
-abstract = {For an explanation of a deep learning model to be effective, it must provide both insight into a model and suggest a corresponding action in order to achieve some objective. Too often, the litany of proposed explainable deep learning methods stop at the first step, providing practitioners with insight into a model, but no way to act on it. In this paper, we propose contextual decomposition explanation penalization (CDEP), a method which enables practitioners to leverage existing explanation methods in order to increase the predictive accuracy of deep learning models. In particular, when shown that a model has incorrectly assigned importance to some features, CDEP enables practitioners to correct these errors by directly regularizing the provided explanations. Using explanations provided by contextual decomposition (CD) (Murdoch et al., 2018), we demonstrate the ability of our method to increase performance on an array of toy and real datasets.},
-archivePrefix = {arXiv},
-arxivId = {1909.13584},
-author = {Rieger, Laura and Singh, Chandan and Murdoch, W. James and Yu, Bin},
-eprint = {1909.13584},
-file = {:C$\backslash$:/Users/lauri/AppData/Local/Mendeley Ltd./Mendeley Desktop/Downloaded/Rieger et al. - 2019 - Interpretations are useful penalizing explanations to align neural networks with prior knowledge.pdf:pdf},
-journal = {arxiv},
-month = {sep},
-title = {{Interpretations are useful: penalizing explanations to align neural networks with prior knowledge}},
-url = {http://arxiv.org/abs/1909.13584},
-year = {2019}
+
+@inproceedings{rieger2017separable,
+	title={Separable explanations of neural network decisions},
+	author={Rieger, Laura},
+	booktitle={31st Conference on Neural Information Processing Systems},
+	year={2017}
 }
-@incollection{Hansen2019,
-	author = {Hansen, Lars Kai and Rieger, Laura},
-	booktitle = {Explainable AI: Interpreting, Explaining and Visualizing Deep Learning},
-	doi = {10.1007/978-3-030-28954-6_3},
-	file = {:C$\backslash$:/Users/lauri/AppData/Local/Mendeley Ltd./Mendeley Desktop/Downloaded/Hansen, Rieger - 2019 - Interpretability in Intelligent Systems – A New Concept.pdf:pdf},
-	pages = {41--49},
-	publisher = {Springer, Cham},
-	title = {{Interpretability in Intelligent Systems A New Concept?}},
-	url = {http://link.springer.com/10.1007/978-3-030-28954-6{\_}3},
-	year = {2019}
+
+@incollection{hansen2019interpretability,
+	title={Interpretability in Intelligent Systems--A New Concept?},
+	author={Hansen, Lars Kai and Rieger, Laura},
+	booktitle={Explainable AI: Interpreting, Explaining and Visualizing Deep Learning},
+	pages={41--49},
+	year={2019},
+	publisher={Springer, Cham}
 }
-@incollection{Rieger2018,
-	author = {Rieger, Laura and Chormai, Pattarawat and Montavon, Gr{\'{e}}goire and Hansen, Lars Kai and M{\"{u}}ller, Klaus-Robert},
-	booktitle = {Explainable and Interpretable Models in Computer Vision and Machine Learning},
-	doi = {10.1007/978-3-319-98131-4_5},
-	file = {:C$\backslash$:/Users/lauri/AppData/Local/Mendeley Ltd./Mendeley Desktop/Downloaded/Rieger et al. - 2018 - Structuring Neural Networks for More Explainable Predictions.pdf:pdf},
-	pages = {115--131},
-	publisher = {Springer, Cham},
-	title = {{Structuring Neural Networks for More Explainable Predictions}},
-	url = {http://link.springer.com/10.1007/978-3-319-98131-4{\_}5},
-	year = {2018}
+
+@article{rieger2019interpretations,
+	title={Interpretations are useful: penalizing explanations to align neural networks with prior knowledge},
+	author={Rieger, Laura and Singh, Chandan and Murdoch, W James and Yu, Bin},
+	journal={arXiv preprint arXiv:1909.13584},
+	year={2019}
+}
+
+@inproceedings{rieger2020irof,
+	title={IROF: a low resource evaluation metric for explanation methods},
+	author={Rieger, Laura and Hansen, Lars Kai},
+	booktitle={Workshop AI for Affordable Healthcare at ICLR 2020, Addis Ababa, Ethiopia},
+	year={2020}
 }
