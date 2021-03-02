@@ -8,7 +8,7 @@ redirect_from:
   - /about.html
 ---
 
-I am a postdoctoral researcher at the group for Atomic Scale Materials Modelling at DTU Energy in Denmark. My research is focussed on using  deep learning algorithms, particularly generative algorithms, to predict reactions and processes in the physical sciences. In the [BIG-MAP](https://www.big-map.eu/) project, this is used in the context of inverse material design to speed up the discovery and development of new battery materials.
+I am a postdoctoral researcher at the group for [Atomic Scale Materials Modelling](https://www.asm.energy.dtu.dk/) at DTU Energy in Denmark. My research is focussed on using  deep learning algorithms, particularly generative algorithms, to predict reactions and processes in the physical sciences. In the [BIG-MAP](https://www.big-map.eu/) project, this is used in the context of inverse material design to speed up the discovery and development of new battery materials. 
 
 I recently finished my  PhD  at the [Section for Cognitive Systems](https://www.compute.dtu.dk/english/research/research-sections/cogsys), at the [Technical University of Denmark](https://www.dtu.dk/english) under the supervision of [Lars Kai Hansen](http://cogsys.imm.dtu.dk/staff/lkhansen/lkhansen.html) in October 2020.
 During my PhD studies I visited [Bin Yu's group](https://www.stat.berkeley.edu/~yugroup/)  at UC Berkeley for six months. 
